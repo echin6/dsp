@@ -60,14 +60,12 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
---
+>> For terminal editor I will be using VIM. It is more feature rich than Nano which is good for programming but less confusing than EMACs in my opinion.  The fact VIM is default on many terminals makes is an added bonus.  However, it's still unnatural for someone who is used to using a graphial editor and presents a somewhat steep learning for me.  
 
 ###Q2. Graphical Editor
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I will be using Sublime Text.  It has an embedded python interpreter and it has some great features that are great for coders.  For example, it allows for multiple selections that make rapid changes to the texts very efficient.  One can select some text and press CTRL + D to add more instances.  Also, Ctrl + L expands the selections to the end of the line. Ctrl + Shift + L splits the selections into lines.
 
  
