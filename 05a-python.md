@@ -95,12 +95,15 @@ date_stop = '07-28-2015'
 
 >> from datetime import *  
 >>
+>>date_start = '01-02-2013'  
+>>date_stop = '07-28-2015'  
+>>
 >>date_format = "%m-%d-%Y"  
 >>
->>date_start = datetime.strptime('01-02-2013', date_format)  
->>date_stop = datetime.strptime('07-28-2015', date_format)  
+>>date_start_std = datetime.strptime(date_start, date_format)  
+>>date_stop_std = datetime.strptime(date_stop, date_format)  
 >>
->>date_count = date_stop - date_start  
+>>date_count = date_stop_std - date_start_std  
 >>
 >>print date_count  
 >>937 days, 0:00:00  
