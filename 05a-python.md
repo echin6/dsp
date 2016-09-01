@@ -93,7 +93,18 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> from datetime import *  
+>>
+>>date_format = "%m-%d-%Y"  
+>>
+>>date_start = datetime.strptime('01-02-2013', date_format)  
+>>date_stop = datetime.strptime('07-28-2015', date_format)  
+>>
+>>date_count = date_stop - date_start  
+>>
+>>print date_count  
+>>937 days, 0:00:00  
+>>
 
 b.  
 ```
