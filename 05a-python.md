@@ -66,13 +66,13 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >>
 >>Set and Dictionary comprehensions are demonstrated below:
 >>
->># Print all even numbers between 0 and 101 (not inclusive)
+>>Print all even numbers between 0 and 101 (not inclusive)
 >>s = {x for x in range(1,101) if x % 2 == 0}  
 >>print s  
 >>
 >>set([2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100])  
 >>
->># Map all numbers to their squared numbers between 0 and 101 (not inclusive)  
+>>Map all numbers to their squared numbers between 0 and 101 (not inclusive)  
 >>
 >>d = {x: x**2 for x in range(1, 11)}  
 >>print d  
