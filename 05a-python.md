@@ -61,6 +61,24 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >>fast_filter = filter(lambda x: x>60, miles)  
 >>print fast_filter  
 >>[65, 90]  
+>>
+>>Generally speaking, list comprehensions are computationally faster since there are no functional overhead.  
+>>
+>>Set and Dictionary comprehensions are demonstrated below:
+>>
+>># Print all even numbers between 0 and 101 (not inclusive)
+>>s = {x for x in range(1,101) if x % 2 == 0}  
+>>print s  
+>>
+>>set([2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 100])  
+>>
+>># Map all numbers to their squared numbers between 0 and 101 (not inclusive)  
+>>
+>>d = {x: x**2 for x in range(1, 11)}  
+>>print d  
+>>{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81, 10: 100}  
+>>
+
 ---
 
 ###Complete the following problems by editing the files below:
