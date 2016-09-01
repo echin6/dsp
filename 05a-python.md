@@ -49,10 +49,18 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >>km_comp = [(x*1.60934) for x in miles]  
 >>print km_comp  
 >>[88.5137, 104.6071, 144.8406]  
+>>
 >>km_map = map(lambda x: x*1.60934, miles)  
 >>print km_map  
 >>[88.5137, 104.6071, 144.8406]  
-
+>>
+>>fast_comp = [x for x in miles if x>60]  
+>>print fast_comp  
+>>[65, 90]  
+>>
+>>fast_filter = filter(lambda x: x>60, miles)  
+>>print fast_filter  
+>>[65, 90]  
 ---
 
 ###Complete the following problems by editing the files below:
