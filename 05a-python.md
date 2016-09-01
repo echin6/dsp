@@ -150,7 +150,7 @@ date_stop = '14-Jul-2015'
 >>date_count = date_stop_std - date_start_std  
 >>
 >>print date_count.days  
->>785
+>>7850
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
