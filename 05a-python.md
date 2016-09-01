@@ -43,7 +43,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> List comprehensions is a Python's construct that performs a transform operation on a list, with optional filters, which creates a new sequence (list) in the process.  
+>> List comprehensions is a Python's construct that performs a transform operation on a list, with optional filters, which creates a new sequence (list) in the process.  List comprehension can be a complete substitute for list operations like the functions map(), filter() and reduce(). Here are some examples that demonstrate equivalent results using list comprehensions versus list operators like 'map' and 'filter'.
 
 ---
 
