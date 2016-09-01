@@ -32,7 +32,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 >>
 >>matrix = [(1, 5, 8), (3, 6, 7,), (5, 2, 9)]  
 >>
->>If we want to sort this list we can use the build-in function 'sorted', which will sort the list by the first value of each tuple.  However, if we want to sort the list by its 2nd or 3rd value, we would need to use the 'key' argument and define a lambda function within it.  A 'def' function could work as well but 'lambda' saves space and computational resources.  The following demonstrates how to sort the list by its 3rd value using 'lambda':
+>>If we want to sort this list we can use the build-in function 'sorted', which will sort the list by the first value of each tuple.  However, if we want to sort the list by its 2nd or 3rd value, we would need to use the 'key' argument and define a lambda function from within it.  A 'def' function could work as well but 'lambda' saves computational space.  The following demonstrates how to sort the list by its 3rd value using 'lambda':
 
 >>sorted(matrix, key=lambda matrix: matrix[2])  
 >>[(3, 6, 7), (1, 5, 8), (5, 2, 9)]
@@ -43,7 +43,7 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehensions is a Python's construct that performs a transform operation on a list, with optional filters, which creates a new sequence (list) in the process.  
 
 ---
 
