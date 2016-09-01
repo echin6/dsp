@@ -62,11 +62,12 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 >>print fast_filter  
 >>[65, 90]  
 >>
->>Generally speaking, list comprehensions are computationally faster since there are no functional overhead.  
+>>Generally speaking, list comprehensions are computationally faster since there are no functions overhead.  
 >>
 >>Set and Dictionary comprehensions are demonstrated below:
 >>
->>Print all even numbers between 0 and 101 (not inclusive)
+>>Print all even numbers between 0 and 101 (not inclusive)  
+>>
 >>s = {x for x in range(1,101) if x % 2 == 0}  
 >>print s  
 >>
