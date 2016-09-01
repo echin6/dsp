@@ -45,10 +45,14 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 >> List comprehensions is a Python's construct that performs a transform operation on a list, with optional filters, which creates a new sequence (list) in the process.  List comprehension can be a complete substitute for list operators like map(), filter() and reduce(). Here are some examples that demonstrate equivalent results using list comprehensions versus list operators like 'map' and 'filter'.
 >>
->>miles = [55, 65, 90]
->>km = [(x*1.60934) for x in miles]
->>print km
->>[88.5137, 104.6071, 144.8406]
+>>miles = [55, 65, 90]  
+>>km_comp = [(x*1.60934) for x in miles]  
+>>print km_comp  
+>>[88.5137, 104.6071, 144.8406]  
+>>km_map = map(lambda x: x*1.60934, miles)  
+>>print km_map  
+>>[88.5137, 104.6071, 144.8406]  
+
 ---
 
 ###Complete the following problems by editing the files below:
