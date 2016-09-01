@@ -28,7 +28,15 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Python's 'lambda' is an anonymous function that can be defined without a name.  For example, here's a list of tuples:
+
+matrix = [(1, 5, 8), (3, 6, 7,), (5, 2, 9)]  
+
+If we want to sort this list we can use the build-in funciton 'sorted', which will sort the list by the first value of each tuple.  However, if we want to sort the list by the 2nd or 3rd value, we would need to use the 'key' argument to define a function.  This is when lambda comes in handy.  The following demonstrates how to sort the list by the 3rd value using tuples:
+
+sorted(matrix, key=lambda matrix: matrix[2])  
+
+[(3, 6, 7), (1, 5, 8), (5, 2, 9)]
 
 ---
 
