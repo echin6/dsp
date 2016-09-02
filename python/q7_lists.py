@@ -100,10 +100,9 @@ def remove_adjacent(nums):
 
 
 def linear_merge(list1, list2):
-    new_list = list1 + list2
-    s = sorted(new_list)
-    print s
-	
+    s = sorted(list1 + list2)  
+    print s  
+    
     """
     Given two lists sorted in increasing order, create and return a
     merged list of all the elements in sorted order. You may modify
