@@ -3,6 +3,12 @@
 
 
 def donuts(count):
+    count_int = int(count)
+	if count_int > 9:
+		print "Number of donuts: many"
+	else:
+		print 'Number of donuts: %d' %count_int
+	
     """
     Given an int count of a number of donuts, return a string of the
     form 'Number of donuts: <count>', where <count> is the number
@@ -22,6 +28,12 @@ def donuts(count):
 
 
 def both_ends(s):
+    s_len = len(s)
+	if s_len < 2:
+		print ""
+	else:
+		print s[0:2] + s[s_len-2:s_len]
+		
     """
     Given a string s, return a string made of the first 2 and the last
     2 chars of the original string, so 'spring' yields 'spng'.
@@ -41,6 +53,17 @@ def both_ends(s):
 
 
 def fix_start(s):
+    s_list = []
+	s_list = list(s)
+	for x in range(len(s_list)):
+		if x == 0:
+			s_list[0] = s[0]
+		elif s[x] == s[0]:
+			s_list[x] = "*"
+		else:
+			s_list[x] = s[x]
+	print ''.join(s_list)
+	
     """
     Given a string s, return a string where all occurences of its
     first char have been changed to '*', except do not change the
@@ -60,6 +83,16 @@ def fix_start(s):
 
 
 def mix_up(a, b):
+    a_list = []
+	b_list = []
+	a_list = list(a)
+	b_list = list(b)
+	a_list[0] = b[0]
+	a_list[1] = b[1]
+	b_list[0] = a[0]
+	b_list[1] = a[1]
+	print "".join(a_list) + " " + "".join(b_list)
+	
     """
     Given strings a and b, return a single string with a and b
     separated by a space '<a> <b>', except swap the first 2 chars of
@@ -78,7 +111,16 @@ def mix_up(a, b):
 
 
 def verbing(s):
-    """
+    s_len = len(s)
+	if s_len < 3:
+		pass
+	elif s[s_len-3:s_len] == "ing":
+		s = s + "ly"
+	else:
+		s = s + "ing"
+	print s
+	
+	"""
     Given a string, if its length is at least 3, add 'ing' to its end.
     Unless it already ends in 'ing', in which case add 'ly' instead.
     If the string length is less than 3, leave it unchanged. Return
@@ -95,6 +137,17 @@ def verbing(s):
 
 
 def not_bad(s):
+    t = s.split()
+	f = lambda l, e: l.index(e) if e in l else -1
+	not_index = f(t, "not")
+	bad_index = f(t, "bad")
+	if not_index >=0 and bad_index > not_index:
+		t[not_index] = "good"
+		del t[not_index+1:bad_index+1]
+		print " ".join(t)
+	else:
+		print " ".join(t)
+		
     """
     Given a string, find the first appearance of the substring 'not'
     and 'bad'. If the 'bad' follows the 'not', replace the whole
@@ -115,6 +168,20 @@ def not_bad(s):
 
 
 def front_back(a, b):
+    a_len = len(a)
+	b_len = len(b)
+	if a_len % 2 == 0:
+		a_front = a_len / 2
+	else:
+		a_front = a_len / 2 + 1 
+	if b_len % 2 == 0:
+		b_front = b_len / 2
+	else:
+		b_front = b_len / 2 + 1
+	a_back = a_len / 2
+	b_back = b_len / 2
+	print a[0:a_front] + b[0:b_front] + a[a_front:a_front+a_back] + b[b_front:b_front+b_back]
+	
     """
     Consider dividing a string into two halves. If the length is even,
     the front and back halves are the same length. If the length is
