@@ -139,19 +139,23 @@ def verbing(s):
 def not_bad(s):
     t = []
     t = s.split()
-    for i in range(len(t)):
-        if t[i].find('not') >= 0:
-            not_index = t.index(t[i])
-    for j in range(len(t)):
-        if t[i].find('bad') >= 0:
-            bad_index = t.index(t[i])
-	if not_index >=0 and bad_index > not_index:
-            t[bad_index] = t[bad_index].replace('bad', 'good', 1)
+        for i in range(len(t)):
+            if t[i].find('not') >= 0:
+                not_index = t.index(t[i])
+            else:
+                not_index = -1
+        for i in range(len(t)):
+            if t[i].find('bad') >= 0:
+                bad_index = t.index(t[i])
+            else:
+                bad_index = -1
+        if not_index >=0 and bad_index > not_index:
+            t[bad_index] = t[bad_index].replace('bad', 'good')
             del t[not_index:bad_index]
             print " ".join(t)
         else:
-            print " ".join(t)
-	
+            print " ".join(t)	
+            
     """
     Given a string, find the first appearance of the substring 'not'
     and 'bad'. If the 'bad' follows the 'not', replace the whole
