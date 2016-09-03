@@ -137,16 +137,20 @@ def verbing(s):
 
 
 def not_bad(s):
+    t = []
     t = s.split()
-    f = lambda l, e: l.index(e) if e in l else -1
-    not_index = f(t, "not")
-    bad_index = f(t, "bad")
+    for i in range(len(t)):
+        if t[i].find('not') >= 0:
+            not_index = t.index(t[i])
+    for j in range(len(t)):
+        if t[i].find('bad') >= 0:
+	    bad_index = t.index(t[i])
     if not_index >=0 and bad_index > not_index:
-	t[not_index] = "good"
+        t[not_index] = "good"
         del t[not_index+1:bad_index+1]
-	print " ".join(t)
+        print " ".join(t)
     else:
-	print " ".join(t)
+        print " ".join(t)
 		
     """
     Given a string, find the first appearance of the substring 'not'
