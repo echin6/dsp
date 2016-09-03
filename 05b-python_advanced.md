@@ -50,7 +50,13 @@ Professor of Biostatistics            |   13
 
 ####Q4. Find how many different email domains there are (Ex:  mail.med.upenn.edu, upenn.edu, email.chop.edu, etc.).  Print the list of unique email domains.
 
->> REPLACE THIS WITH YOUR RESPONSE
+>> 
+domains      |        count
+-------      |        -----                   
+cceb.med.upenn.edu  |    1
+email.chop.edu      |    1
+mail.med.upenn.edu  |   23
+upenn.edu           |   12
 
 Place your code in this file: [advanced_python_regex.py](python/advanced_python_regex.py)
 
