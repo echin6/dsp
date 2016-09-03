@@ -34,7 +34,7 @@ degrees    |          count
 Ph.D.                |    1
 
 ####Q2. Find how many different titles there are, and their frequencies:  Ex:  Assistant Professor, Professor
-
+>>
 title                |                 count
 -----                |                 -----                                      
 Assistant Professor is Biostatistics  |    1
