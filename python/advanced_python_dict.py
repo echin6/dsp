@@ -24,8 +24,8 @@ print last_first3
 
 print split_first3
 
+#print last_dict_sorted
+
 for k in sorted(last_dict.keys()):
 	value = last_dict[k]
 	print {k: value}
-	
-#print last_dict_sorted
