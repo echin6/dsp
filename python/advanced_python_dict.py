@@ -18,11 +18,14 @@ last_first3 = {k: last_dict[k] for k in sorted(last_dict.keys())[:3]}
 
 split_first3 = {k: split_dict[k] for k in sorted(split_dict.keys())[:3]}
 
-last_dict_sorted = {k: last_dict[k] for k in sorted(last_dict.keys())}
+#last_dict_sorted = {k: last_dict[k] for k in sorted(last_dict.keys())}
 
 print last_first3
 
 print split_first3
 
-print last_dict_sorted
-
+for k in sorted(last_dict.keys()):
+	value = last_dict[k]
+	print {k: value}
+	
+#print last_dict_sorted
