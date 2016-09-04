@@ -102,39 +102,40 @@ Print the first 3 key and value pairs of the dictionary:
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Print out the dictionary key value pairs based on alphabetical orders of the last name of the professors
 
->> Bellamy [' Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu']
-Bilker ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']
-Bryan [' PhD', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu']
-Chen [' Ph.D.', 'Associate Professor of Biostatistics', 'jinboche@upenn.edu']
-Ellenberg [' Ph.D.', 'Professor of Biostatistics', 'sellenbe@upenn.edu']
-Feng [' Ph.D', 'Assistant Professor of Biostatistics', 'ruifeng@upenn.edu']
-French [' PhD', 'Associate Professor of Biostatistics', 'bcfrench@mail.med.upenn.edu']
-Gimotty [' Ph.D', 'Professor of Biostatistics', 'pgimotty@upenn.edu']
-Guo [' Ph.D', 'Professor of Biostatistics', 'wguo@mail.med.upenn.edu']
-Hsu [' Ph.D.', 'Assistant Professor of Biostatistics', 'hsu9@mail.med.upenn.edu']
-Hubbard [' PhD', 'Associate Professor of Biostatistics', 'rhubb@mail.med.upenn.edu']
-Hwang [' Ph.D.', 'Associate Professor of Biostatistics', 'whwang@mail.med.upenn.edu']
-Joffe [' MD MPH Ph.D', 'Professor of Biostatistics', 'mjoffe@mail.med.upenn.edu']
-Landis [' B.S.Ed. M.S. Ph.D.', 'Professor of Biostatistics', 'jrlandis@mail.med.upenn.edu']
-Li [' Ph.D.', 'Associate Professor of Biostatistics', 'mingyao@mail.med.upenn.edu']
-Localio [' JD MA MPH MS PhD', 'Associate Professor of Biostatistics', 'rlocalio@upenn.edu']
-Mitra [' Ph.D.', 'Associate Professor of Biostatistics', 'nanditam@mail.med.upenn.edu']
-Morales [' Sc.D.', 'Associate Professor of Biostatistics', 'knashawn@mail.med.upenn.edu']
-Propert [' Sc.D.', 'Professor of Biostatistics', 'propert@mail.med.upenn.edu']
-Putt [' PhD ScD', 'Professor of Biostatistics', 'mputt@mail.med.upenn.edu']
-Ratcliffe [' Ph.D.', 'Associate Professor of Biostatistics', 'sratclif@upenn.edu']
-Ross [' PhD', 'Assistant Professor is Biostatistics', 'michross@upenn.edu']
-Roy [' Ph.D.', 'Associate Professor of Biostatistics', 'jaroy@mail.med.upenn.edu']
-Sammel [' Sc.D.', 'Professor of Biostatistics', 'msammel@cceb.med.upenn.edu']
-Shaw [' PhD', 'Assistant Professor of Biostatistics', 'shawp@upenn.edu']
-Shinohara ['0', 'Assistant Professor of Biostatistics', 'rshi@mail.med.upenn.edu']
-Shou [' Ph.D.', 'Assistant Professor of Biostatistics', 'hshou@mail.med.upenn.edu']
-Shults [' Ph.D.', 'Professor of Biostatistics', 'jshults@mail.med.upenn.edu']
-Stephens [' Ph.D.', 'Assistant Professor of Biostatistics', 'alisaste@mail.med.upenn.edu']
-Troxel [' ScD', 'Professor of Biostatistics', 'atroxel@mail.med.upenn.edu']
-Xiao [' PhD', 'Assistant Professor of Biostatistics', 'rxiao@mail.med.upenn.edu']
-Xie [' PhD', 'Assistant Professor of Biostatistics', 'dxie@upenn.edu']
-Yang [' Ph.D.', 'Assistant Professor of Biostatistics', 'weiyang@mail.med.upenn.edu']
+>> {'Bellamy': [' Sc.D.', 'Associate Professor of Biostatistics', 'bellamys@mail.med.upenn.edu']}
+{'Bilker': ['Ph.D.', 'Professor of Biostatistics', 'warren@upenn.edu']}
+{'Bryan': [' PhD', 'Assistant Professor of Biostatistics', 'bryanma@upenn.edu']}
+{'Chen': [' Ph.D.', 'Associate Professor of Biostatistics', 'jinboche@upenn.edu']}
+{'Ellenberg': [' Ph.D.', 'Professor of Biostatistics', 'sellenbe@upenn.edu']}
+{'Feng': [' Ph.D', 'Assistant Professor of Biostatistics', 'ruifeng@upenn.edu']}
+{'French': [' PhD', 'Associate Professor of Biostatistics', 'bcfrench@mail.med.upenn.edu']}
+{'Gimotty': [' Ph.D', 'Professor of Biostatistics', 'pgimotty@upenn.edu']}
+{'Guo': [' Ph.D', 'Professor of Biostatistics', 'wguo@mail.med.upenn.edu']}
+{'Hsu': [' Ph.D.', 'Assistant Professor of Biostatistics', 'hsu9@mail.med.upenn.edu']}
+{'Hubbard': [' PhD', 'Associate Professor of Biostatistics', 'rhubb@mail.med.upenn.edu']}
+{'Hwang': [' Ph.D.', 'Associate Professor of Biostatistics', 'whwang@mail.med.upenn.edu']}
+{'Joffe': [' MD MPH Ph.D', 'Professor of Biostatistics', 'mjoffe@mail.med.upenn.edu']}
+{'Landis': [' B.S.Ed. M.S. Ph.D.', 'Professor of Biostatistics', 'jrlandis@mail.med.upenn.edu']}
+{'Li': [' Ph.D.', 'Associate Professor of Biostatistics', 'mingyao@mail.med.upenn.edu']}
+{'Localio': [' JD MA MPH MS PhD', 'Associate Professor of Biostatistics', 'rlocalio@upenn.edu']}
+{'Mitra': [' Ph.D.', 'Associate Professor of Biostatistics', 'nanditam@mail.med.upenn.edu']}
+{'Morales': [' Sc.D.', 'Associate Professor of Biostatistics', 'knashawn@mail.med.upenn.edu']}
+{'Propert': [' Sc.D.', 'Professor of Biostatistics', 'propert@mail.med.upenn.edu']}
+{'Putt': [' PhD ScD', 'Professor of Biostatistics', 'mputt@mail.med.upenn.edu']}
+{'Ratcliffe': [' Ph.D.', 'Associate Professor of Biostatistics', 'sratclif@upenn.edu']}
+{'Ross': [' PhD', 'Assistant Professor is Biostatistics', 'michross@upenn.edu']}
+{'Roy': [' Ph.D.', 'Associate Professor of Biostatistics', 'jaroy@mail.med.upenn.edu']}
+{'Sammel': [' Sc.D.', 'Professor of Biostatistics', 'msammel@cceb.med.upenn.edu']}
+{'Shaw': [' PhD', 'Assistant Professor of Biostatistics', 'shawp@upenn.edu']}
+{'Shinohara': ['0', 'Assistant Professor of Biostatistics', 'rshi@mail.med.upenn.edu']}
+{'Shou': [' Ph.D.', 'Assistant Professor of Biostatistics', 'hshou@mail.med.upenn.edu']}
+{'Shults': [' Ph.D.', 'Professor of Biostatistics', 'jshults@mail.med.upenn.edu']}
+{'Stephens': [' Ph.D.', 'Assistant Professor of Biostatistics', 'alisaste@mail.med.upenn.edu']}
+{'Troxel': [' ScD', 'Professor of Biostatistics', 'atroxel@mail.med.upenn.edu']}
+{'Xiao': [' PhD', 'Assistant Professor of Biostatistics', 'rxiao@mail.med.upenn.edu']}
+{'Xie': [' PhD', 'Assistant Professor of Biostatistics', 'dxie@upenn.edu']}
+{'Yang': [' Ph.D.', 'Assistant Professor of Biostatistics', 'weiyang@mail.med.upenn.edu']}
+
 
 Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
 
