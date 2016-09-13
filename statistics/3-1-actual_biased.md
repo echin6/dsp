@@ -22,6 +22,7 @@ thinkplot.Show(xlabel='No. of children under 18', ylabel='PMF')
 #Define <tt>BiasPmf</tt>.  
 
 def BiasPmf(pmf, label=''):  
+
     """Returns the Pmf with oversampling proportional to value.  
 
     If pmf is the distribution of true values, the result is the  
