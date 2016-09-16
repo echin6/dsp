@@ -81,7 +81,11 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> Mathematically speaking, frequentist and Bayesian methods differ in what they care about, and the kind of errors they're willing to accept.
+>> Generally speaking, frequentism defines probability in terms of frequencies.  Frequentist believes there is a true value to a probability parameter of a certain event and conducts sets of identical trials to estimate its true value.  The probability derived tends to be more   
+
+Bayesian defines probability as a degree of belief that an event will occur.  
+
+Mathematically speaking, frequentist and Bayesian methods differ in what they care about, and the kind of errors they're willing to accept.
 
 Generally speaking, frequentist approaches posit that the world is one way (e.g., a parameter has one particular true value), and try to conduct experiments whose resulting conclusion -- no matter the true value of the parameter -- will be correct with at least some minimum probability.
 
