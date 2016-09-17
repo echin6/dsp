@@ -81,17 +81,9 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> Generally speaking, frequentism defines probability in terms of frequencies.  Frequentist believes there is a true value to a probability parameter of a certain event and conducts sets of identical trials to estimate its true value.  The probability derived tends to be more   
+>> Generally speaking, frequentism defines probability in terms of frequencies.  Frequentist believes there is a true value to a probability parameter of a certain event and conducts sets of identical trials to estimate its true value.  The probability is limited to random events that are measurable and repeatable.  Subjective probability that is not repeatable is pretty much off limit.
 
-Bayesian defines probability as a degree of belief that an event will occur.  
-
-Mathematically speaking, frequentist and Bayesian methods differ in what they care about, and the kind of errors they're willing to accept.
-
-Generally speaking, frequentist approaches posit that the world is one way (e.g., a parameter has one particular true value), and try to conduct experiments whose resulting conclusion -- no matter the true value of the parameter -- will be correct with at least some minimum probability.
-
-As a result, to express uncertainty in our knowledge after an experiment, the frequentist approach uses a "confidence interval" -- a range of values designed to include the true value of the parameter with some minimum probability, say 95%. A frequentist will design the experiment and 95% confidence interval procedure so that out of every 100 experiments run start to finish, at least 95 of the resulting confidence intervals will be expected to include the true value of the parameter. The other 5 might be slightly wrong, or they might be complete nonsense -- formally speaking that's ok as far as the approach is concerned, as long as 95 out of 100 inferences are correct. (Of course we would prefer them to be slightly wrong, not total nonsense.)
-
-Bayesian approaches formulate the problem differently. Instead of saying the parameter simply has one (unknown) true value, a Bayesian method says the parameter's value is fixed but has been chosen from some probability distribution -- known as the prior probability distribution. (Another way to say that is that before taking any measurements, the Bayesian assigns a probability distribution, which they call a belief state, on what the true value of the parameter happens to be.) This "prior" might be known (imagine trying to estimate the size of a truck, if we know the overall distribution of truck sizes from the DMV) or it might be an assumption drawn out of thin air. The Bayesian inference is simpler -- we collect some data, and then calculate the probability of different values of the parameter GIVEN the data. This new probability distribution is called the "a posteriori probability" or simply the "posterior." Bayesian approaches can summarize their uncertainty by giving a range of values on the posterior probability distribution that includes 95% of the probability -- this is called a "95% credibility interval."
+Bayesian, on the other hand, defines probability as a degree of belief that an event will occur.  The notion of Bayesian thus can be applied in almost any cirumstance.  However, Bayesian statistics is highly dependent of a person's domain knowledge or belief in relation to the event so different people with different information might have different notions of probability. 
 
 ---
 
